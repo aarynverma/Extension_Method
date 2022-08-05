@@ -12,8 +12,10 @@ namespace ToCheckCurrency
         {
             Console.WriteLine("Enter the value");
             string input = Console.ReadLine();
-            string Currency = ToCheckCurrency.ToCurrency(input);
+            string Currency = new string(input);
+            Currency.ToCurrency();
             Console.WriteLine(Currency);
+             
         }
     }
 }
