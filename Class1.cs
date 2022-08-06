@@ -13,7 +13,7 @@ namespace ToCheckCurrency
 
             if (!isNumber)
                 return str;
-
+             
             else
                 throw new Exception("Invalid Value!");
 
